@@ -13,8 +13,8 @@ try:
     import requests
 except ImportError:
     print('Error !! : Some dependencies are not installed')
-    print('Re-install the Tool to install all required packages')
-    exit()
+    print('Continue Without This')
+    input("Press Enter to Go")
 
 # colors
 yellow='\033[93m'
