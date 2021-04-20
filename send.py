@@ -8,8 +8,6 @@ import os
 import time
 import sys
 import random
-import requests
-from requests import get
 
 try:
     import requests
